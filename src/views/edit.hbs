@@ -1,0 +1,32 @@
+<div class="container mt-3">
+    <div class="row">
+        <div class="col-md-5 offset-md-3">
+            <div class="card card-body bg-dark p-4 text-white">
+
+                <h1>Edita la tarea</h1>
+                    <form action="/edit/{{task._id}}", method="POST">
+                        <input type="text" name="title" placeholder="Titulo" value="{{task.title}}" class="form-control rounded-1 bg-dark text-white">
+
+                        <textarea 
+                            name="description" 
+                            id="" 
+                            rows="3" 
+                            placeholder="Añade una descripcion"
+                            class="form-control rounded-1 bg-dark text-white"
+                        >{{task.description}}</textarea>
+                
+                        <button class="btn btn-primary mt-1">Editar</button>
+                        {{!-- <a href="./index.hbs" class="btn btn-danger p-2 mt-1">Volver</a> --}}
+
+                    </form>
+
+            </div>
+        </div>
+
+    </div>
+    
+</div>
+
+
+
+
