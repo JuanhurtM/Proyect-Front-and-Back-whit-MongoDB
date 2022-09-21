@@ -14,7 +14,7 @@ VARIABLES Y ARCHIVOS A TENER EN CUENTA
 
 El archivo ".env" ---> se encuentra una variable de entorno llamada MONGODB_URI, 
 la cual es la que manda la url de la base de datos. IMPORTANTE, este archivo ".env" no existe,
- se debera crearlo y declarar la variable de entorno de la siguiente manera:
+se debera crearlo y declarar la variable de entorno de la siguiente manera:
 
     MONGODB_URI = "url de la bd en mongoDB"
 
@@ -34,8 +34,9 @@ en el equipo que se vaya a usar.
 ABSTRACT English
 --------------------------------------------------------------------------------------------------------------------------
 
-This project is more than anything to understand the logic of how to link views with models and controllers,
- through the use of Javascript, NodeJS, Handlebars and MongoDB.
+
+The main objective of the project is understand the logic of how to link views with models and controllers,
+through the use of Javascript, NodeJS, Handlebars and MongoDB.
 
 --------------------------------------------------------------------------------------------------------------------------
 VARIABLES AND FILES TO TAKE INTO ACCOUNT
